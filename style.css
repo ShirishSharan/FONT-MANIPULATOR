@@ -1,0 +1,91 @@
+.heading
+{
+font-size: 40px ;
+color:rgb(0, 0, 0);
+font-family: cursive;
+border:10px double yellow ;
+text-align: center;
+animation-name:colorchanger;
+ animation-duration: 6s;
+animation-iteration-count:infinite ;
+width: 100%;
+
+}
+@keyframes colorchanger{
+    from{box-shadow: 15px 10px 10px rgb(0, 46, 252);}
+    to{box-shadow:15px 10px 10px rgb(255, 0, 98);}
+}
+
+.note
+{
+    font-size: 14.4px;
+    color:rgb(0, 245, 204);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: initial;
+    text-align: center;
+    
+    
+    
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    line-height: 3;
+    width: 100%;
+    bottom:0;
+    font-size:15px;
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    text-align: center;
+    background-color: rgb(243, 134, 45);
+    font-weight: bold;
+    font-style: oblique;
+    box-shadow: 10px 10px 10px rgb(101, 197, 230);
+    border-radius: 5px;
+    border:5px outset rgb(214, 252, 0);
+    
+    
+}
+
+
+canvas{
+    border-radius: 100px;
+    border-style: groove;
+    border-top-color: rgb(255, 0, 85);
+    border-bottom-color: rgb(255, 217, 0);
+    border-left-color: rgb(47, 0, 255);
+    border-right-color: purple;
+    animation-name: colorchangercanvas;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+  
+}
+
+@keyframes colorchangercanvas{
+    from{box-shadow: 20px 15px 15px rgb(214, 252, 0);}
+    to{box-shadow:20px 15px 15px rgb(0, 132, 255);}
+}
+
+video{
+    border-radius: 200px;
+    border-style: ridge;
+    border-color:rgb(253, 17, 0);
+    animation-name:colorchangervideo;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    
+
+
+}
+
+@keyframes colorchangervideo{
+    from{box-shadow: 20px 15px 15px rgb(252, 134, 0);}
+    to{box-shadow:20px 15px 15px rgb(255, 251, 0);}
+}
+
+
+
+
+
